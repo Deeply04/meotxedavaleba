@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Normal;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family:italic;
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+header{
+    padding: 30px 0;
+    border-bottom: 1px solid #000;
+}
+.container{
+    max-width: 1184px;
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.logo-wrapper, nav, .avatar-wrapper, li{
+    display: inline-block;
+}
+
+.logo-wrapper{
+    margin-right: 270px;
+    font-size: 26px;
+    font-family:Normal;
+}
+li{
+    font-size: 18px;
+    font-family:Normal;
+}
+li:not(:last-child){
+    margin-right: 50px;
+}
+li:last-child{
+    margin-right: 367px;
+}
+.mainword{
+    font-size: 24px;
+    margin-left: 518px;
+    margin-top: 72px;
+    margin-bottom: 65px;
+}
+.card{
+    width: 333px;
+    height: 487px;
+    border: 1px solid #000;
+    padding: 11px;
+    display: inline-block;
+}
+.satauri{
+    margin-top: 5px;
+    margin-left: 26px;
+}
+.ganmarteba{
+    margin-top: 18px;
+    margin-left: 26px;
+}
+.see-more{
+    margin-top: 14px;
+    margin-left: 216px;
+}
+.pirveli{
+    margin-left: 126px;
+}
+.meore{
+    margin-left: 105px;
+}
+.mesame{
+    margin-left: 104px;
+}
+.mainword2{
+    margin-top: 147px;
+    margin-left: 610px;
+    font-size: 40px;
+    color: #7D0000;
+    font-family:Normal;
+}
+.mail{
+    margin-left: 280px;
+    margin-top: 119px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    font-family:italic;
+}
+.number{
+    margin-left: 280px;
+    margin-top: 34px;
+    font-family:Normal;
+}
+.adress{
+    margin-left: 866px;
+    font-family:Normal;
+}
+.clock{
+    margin-left: 866px;
+    display: inline;
+    font-family:Normal;
+}
+.mail, .number, .adress, .clock{
+    font-size: 27px;
+    color: #0B253E;
+}
+.map{
+    margin-left: 266px;
+    margin-top: 144px;
+    width: 908px;
+    height: 423px;
+}
+.oritexti{
+    width: 580px;
+    display: inline-block;
+}
+.mainword3{
+    margin-left: 524px;
+    color: #7D0000;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 134px;
+    font-family:Normal;
+}
+.diditexti{
+    width: 650px;
+    height: 205px;
+    font-size: 25px;
+    margin-left: 126px;
+    margin-top: 115px;
+    display: inline-block;
+    font-family:Normal;
+}
+.pataratexti{
+    margin-left: 434px;
+    margin-top: 89px;
+    font-size: 25px;
+    border-bottom: 1px solid #000;
+    width: 342px;
+    font-family:italic;
+}
+.qvemomarjvena{
+    margin-left: 835px;
+}
+.qvemomarjvena2{
+    display: inline-block;
+    margin-top: -220px;
+    width: 500px;
+    height: 333.33px;
+}
+.qaliavatar{
+    margin-top: 169px;
+    margin-bottom: 96px;
+}
+.pirvelidivi{
+    display: inline-block;
+}
+.meoredivi{
+    display: inline-block;
+    vertical-align: 109px;
+}
+.mainclass > div {
+    display: inline-block;
+}
+.didih{
+    margin-left: 68px;
+    font-size: 30px;
+    font-family:Normal;
+}
+.patarap{
+    margin-left: 68px;
+    margin-top: 14px;
+    font-size: 22px;
+    color: #546CCC;
+    font-family:Normal;
+}
+.container{
+    width: 1176px;
+    margin: 0 auto;
+}
+.pirvelidivi{
+    display: inline-block;
+}
+.meoredivi{
+    display: inline-block;
+}
+.qaliavatar{
+    width: 170px;
+    height: 170.81px;
+}
+.aboutclass, .pataraclass{
+    display: inline-block;
+    font-family:Normal;
+}
+.pataraclass{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.shuah3{
+    font-size: 24px;
+    border-bottom:1px solid #7D0000;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 16px;
+    font-family:Normal;
+}
+.lastclass{
+    border: 1px solid #87AC87;
+    display: inline-block;
+    background-color: #87AC87;
+    width: 265px;
+    height: 70px;
+    margin-left: 956px;
+    border-radius: 10px;
+}
+.editinformation{
+    color: white;
+    font-size: 25px;
+    padding-left: 32px;
+    padding-top: 16px;
+    font-family:Normal;
+}
+.statiebi{
+    display: inline-block;
+}
+.mainword4{
+    margin-left: 94px;
+    margin-top: 47px;
+    display: inline-block;
+}
+.search-wrapper{
+   display: inline-block;
+   margin-left: 433px;
+   margin-top: 42px;
+}
+.msmx{
+    margin-top: 93px;
+    font-family:Normal;
+}
+.moda{
+    margin-left: 445px;
+}
+.silamaze{
+    margin-left: 65px;
+}
+.mogzauroba{
+    margin-left: 65px;
+}
+.xelovneba{
+    margin-left: 65px;
+}
+.meoreseqcia{
+    display: inline-block;
+}
+.pirvelizoli{
+    display: inline-block;
+}
+.xelebi{
+    margin-left: 94px;
+    margin-top: 143px;
+    display: inline-block;
+}
+.zoli{
+    border: 1px solid #E5EBE5;
+    background-color: #E5EBE5;
+    width: 918px;
+    height: 228px;
+    margin-left: 22px;
+    display: inline-block;
+    border-radius: 0px 14px 14px 0px;
+}
+.qali4{
+    margin-left: 94px;
+    margin-top: 143px;
+    display: inline-block;
+}
+.waikitxesrulad{
+    border: 1px solid #000;
+    display: inline-block;
+    width: 174px;
+    height: 40px;
+}
+.waikitxe{
+    font-size: 12px;
+    padding-left: 28px;
+    padding-top: 11px;
+}
+.lastword{
+    margin-top: 115px;
+    margin-left: 131px;
+    display: inline-block;
+}
+.bolosami{
+    margin-bottom: 15px;
+}
+.sazafxulo{
+    padding-top: 38px;
+    padding-left: 36px;
+    font-size: 18px;
+}
+.sazafxulop{
+    margin-top: 32px;
+    margin-left: 36px;
+    font-size: 14px;
+}
